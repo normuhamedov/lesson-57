@@ -1,0 +1,38 @@
+
+
+.tamp_bg {
+  background: blue;
+  width: 200px;
+  height: 200px;
+  
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tamp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: teal
+}
+
+.btnWrap{
+  display: flex;
+}
+
+.Spinner {
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  border-top-color: #202020;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
